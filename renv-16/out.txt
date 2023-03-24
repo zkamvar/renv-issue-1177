@@ -1,20 +1,16 @@
 * The library is already synchronized with the lockfile.
-trying URL 'https://raw.githubusercontent.com/carpentries/workbench-template-rmd/f6ea6bca196ecd127d4e550afa6e940513419d1c/renv/profiles/lesson-requirements/renv.lock'
-Content type 'text/plain; charset=utf-8' length 8807 bytes
-==================================================
-downloaded 8807 bytes
-
+[1] TRUE
 # Bootstrapping renv 0.16.0 --------------------------------------------------
 * Downloading renv 0.16.0 ... OK
 * Installing renv 0.16.0 ... Done!
 * Successfully installed and loaded renv 0.16.0.
-[1] "/home/zhian/Documents/Carpentries/sandbox/test-renv/renv-16/test"
-[1] "/home/zhian/Documents/Carpentries/sandbox/test-renv/renv-16/test/renv/library/R-4.2/x86_64-pc-linux-gnu"
-[1] "/home/zhian/Documents/Carpentries/sandbox/test-renv/renv-16/test/renv.lock"
+[1] "/home/zhian/Documents/Carpentries/Git/zkamvar/renv-issue-1177/renv-16/test"
+[1] "/home/zhian/Documents/Carpentries/Git/zkamvar/renv-issue-1177/renv-16/test/renv/library/R-4.2/x86_64-pc-linux-gnu"
+[1] "/home/zhian/Documents/Carpentries/Git/zkamvar/renv-issue-1177/renv-16/test/renv.lock"
 Finding R package dependencies ... Done!
-[1] "/home/zhian/Documents/Carpentries/sandbox/test-renv/renv-16/renv/library/R-4.2/x86_64-pc-linux-gnu"         
-[2] "/home/zhian/Documents/Carpentries/sandbox/test-renv/renv-16/renv/sandbox/R-4.2/x86_64-pc-linux-gnu/9a444a72"
-[3] "/usr/lib/R/library"                                                                                         
+[1] "/home/zhian/Documents/Carpentries/Git/zkamvar/renv-issue-1177/renv-16/renv/library/R-4.2/x86_64-pc-linux-gnu"         
+[2] "/home/zhian/Documents/Carpentries/Git/zkamvar/renv-issue-1177/renv-16/renv/sandbox/R-4.2/x86_64-pc-linux-gnu/9a444a72"
+[3] "/usr/lib/R/library"                                                                                                   
 * Discovering package dependencies ... Done!
 * Copying packages into the library ... Done!
 * Resolving missing dependencies  ... 
@@ -225,7 +221,7 @@ The following package(s) will be updated in the lockfile:
 - tinytex     [0.44 -> *]
 - xfun        [0.37 -> *]
 
-* Lockfile written to '~/Documents/Carpentries/sandbox/test-renv/renv-16/test/renv.lock'.
+* Lockfile written to '~/Documents/Carpentries/Git/zkamvar/renv-issue-1177/renv-16/test/renv.lock'.
 Diagnostics Report [renv 0.17.2]
 ================================
 
@@ -253,7 +249,7 @@ loaded via a namespace (and not attached):
 [1] compiler_4.2.2 tools_4.2.2    renv_0.17.2   
 
 # Project ============================
-Project path: "~/Documents/Carpentries/sandbox/test-renv/renv-16/test"
+Project path: "~/Documents/Carpentries/Git/zkamvar/renv-issue-1177/renv-16/test"
 
 # Status =============================
 The following package(s) are used in this project, but are not installed:
@@ -316,8 +312,8 @@ Use `renv::dependencies()` to see where these packages appear to be used.
 47     0.37                               CRAN     <NA>   <NA>  [1]       <NA>
 48    2.3.7                               CRAN     <NA>   <NA>  [1]       <NA>
 
-[1]: /home/zhian/Documents/Carpentries/sandbox/test-renv/renv-16/test/renv/library/R-4.2/x86_64-pc-linux-gnu
-[2]: /home/zhian/.cache/R/renv/sandbox/R-4.2/x86_64-pc-linux-gnu/9a444a72                                   
+[1]: /home/zhian/Documents/Carpentries/Git/zkamvar/renv-issue-1177/renv-16/test/renv/library/R-4.2/x86_64-pc-linux-gnu
+[2]: /home/zhian/.cache/R/renv/sandbox/R-4.2/x86_64-pc-linux-gnu/9a444a72                                             
 
 # ABI ================================
 * No ABI conflicts were detected in the set of installed packages.
@@ -350,7 +346,7 @@ List of 9
  $ repos                               : Named chr [1:3] "https://carpentries.r-universe.dev" "https://carpentries.github.io/drat" "https://cran.rstudio.com"
   ..- attr(*, "names")= chr [1:3] "carpentries" "carpentries_archive" "CRAN"
  $ renv.consent                        : logi TRUE
- $ renv.project.path                   : chr "/home/zhian/Documents/Carpentries/sandbox/test-renv/renv-16/test"
+ $ renv.project.path                   : chr "/home/zhian/Documents/Carpentries/Git/zkamvar/renv-issue-1177/renv-16/test"
  $ renv.verbose                        : logi TRUE
 
 # Environment Variables ==============
@@ -359,7 +355,7 @@ LANG                        = en_US.UTF-8
 MAKE                        = make
 R_LIBS                      = ~/R/library
 R_LIBS_SITE                 = 
-R_LIBS_USER                 = /home/zhian/Documents/Carpentries/sandbox/test-renv/renv-16/test/renv/library/R-4.2/x86_64-pc-linux-gnu:/home/zhian/.cache/R/renv/sandbox/R-4.2/x86_64-pc-linux-gnu/9a444a72
+R_LIBS_USER                 = /home/zhian/Documents/Carpentries/Git/zkamvar/renv-issue-1177/renv-16/test/renv/library/R-4.2/x86_64-pc-linux-gnu:/home/zhian/.cache/R/renv/sandbox/R-4.2/x86_64-pc-linux-gnu/9a444a72
 RENV_DEFAULT_R_ENVIRON      = <NA>
 RENV_DEFAULT_R_ENVIRON_USER = <NA>
 RENV_DEFAULT_R_LIBS         = <NA>
@@ -367,7 +363,7 @@ RENV_DEFAULT_R_LIBS_SITE    =
 RENV_DEFAULT_R_LIBS_USER    = 
 RENV_DEFAULT_R_PROFILE      = <NA>
 RENV_DEFAULT_R_PROFILE_USER = <NA>
-RENV_PROJECT                = /home/zhian/Documents/Carpentries/sandbox/test-renv/renv-16/test
+RENV_PROJECT                = /home/zhian/Documents/Carpentries/Git/zkamvar/renv-issue-1177/renv-16/test
 
 # PATH ===============================
 - /home/zhian/.nvm/versions/node/v17.1.0/bin
@@ -389,11 +385,11 @@ RENV_PROJECT                = /home/zhian/Documents/Carpentries/sandbox/test-ren
 - /home/zhian/Documents/Git/git-filter-repo
 
 # Cache ==============================
-There are a total of 1014 package(s) installed in the renv cache.
+There are a total of 1015 package(s) installed in the renv cache.
 Cache path: "~/.cache/R/renv/cache/v5/R-4.2/x86_64-pc-linux-gnu"
 
 Warning message:
 renv 0.17.2 was loaded from project library, but this project is configured to use renv 0.16.0.
 Use `renv::record("renv@0.17.2")` to record renv 0.17.2 in the lockfile.
 Use `renv::restore(packages = "renv")` to install renv 0.16.0 into the project library. 
-[1] "/home/zhian/Documents/Carpentries/sandbox/test-renv/renv-16/test"
+[1] "/home/zhian/Documents/Carpentries/Git/zkamvar/renv-issue-1177/renv-16/test"

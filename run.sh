@@ -14,4 +14,9 @@ cd renv-17 && \
   || echo "something went wrong"
 
 
+cd renv-devel && \
+  Rscript -e 'renv::restore()' && \
+  Rscript script.R 2>&1 | tee out.txt && 
+  cd ${wd} \
+  || echo "something went wrong"
 

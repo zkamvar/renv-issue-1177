@@ -5,7 +5,8 @@ if (dir.exists("test")) {
 }
 
 dir.create("test")
-download.file(lockfile, "test/renv.lock")
+# download.file(lockfile, "test/renv.lock")
+file.copy("../test-lock.json", "test/renv.lock")
 
 callr::r(function() {
   setwd("test")
